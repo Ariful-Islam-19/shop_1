@@ -1,2 +1,1 @@
-# shop_1
-# shop_1
+# shopping_template

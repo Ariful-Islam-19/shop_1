@@ -45,8 +45,11 @@ h5{
     height: 84px;
     margin-left: 20px;
 }
+
+
+
 .logo_img img{
-    width: 100%;
+    width: 50%;
 }
 .header-middle{
     margin-top: 17px;
@@ -144,6 +147,39 @@ h5{
     font-size: 20px;
     margin-right: 0px !important;
 }
+
+
+/* Total Selected Product */
+
+.uni_show{
+    position: absolute;
+    left: 93px;
+    top: 69px;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 25px;
+    background: red;
+    overflow: hidden;
+    height: 25px;
+    z-index: 99;
+    transition: 0.4s;
+}
+.uni_show:hover{
+    background: black;
+}
+.uni_show:hover span{
+    color: red;
+}
+.uni_show span{
+    color: white;
+    padding: 0px 11px;
+    font-size: 15px;
+    position: absolute;
+    top: 1px;
+    font-weight: 600;
+    left: -4px;
+}
+
 
 
 
@@ -552,7 +588,9 @@ h5{
     text-transform: capitalize;
 }
 .second_banner_button{
-    margin-left: 35%;
+    position: relative;
+    left: 141px;
+    top: 20px;
 }
 
 
@@ -670,7 +708,7 @@ h5{
 
 .footer{
     position: relative;
-    background-color: #111;
+    background-color: black;
 }
 
 .footer-1{
@@ -742,14 +780,14 @@ h5{
     transition: 0.4s;
 }
 .footer-3{
-    background: #111;
+    background: black;
     height: auto;
     margin-left: 0px !important;
     width: 100%;
     margin-top: -48px;
 }
 .footer-4{
-    background: #111;
+    background: black;
     position: relative;
     bottom: -50px;
 }

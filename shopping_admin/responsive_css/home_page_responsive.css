@@ -3,13 +3,13 @@
 @media(max-width:1165px){
 
     .header-middle ul li {
-        padding: 53px 5px;
+        padding: 52px 0px;
     }
 }
 @media(max-width:1065px){
     
     .header-middle ul li {
-        padding: 53px 9px;
+        padding: 52px 0px;
     }
     .header-middle {
        
